@@ -1,4 +1,5 @@
-'use strict';
+
+/**********FUNCTIONAL - SHARED STACK IMPLEMENTATION ****************/
 var makeStack = function() {
     var stack = {
         storage: {},
@@ -33,12 +34,13 @@ var stackMethods = {
             return null;
         }
     },
+
     size: function() {
         return this.length;
     }
 };
 
-
+//TESTS
 var newStack = makeStack(); //create stack instance
 newStack.add(10);
 newStack.add('dogs');
