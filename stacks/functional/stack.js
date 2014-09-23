@@ -6,8 +6,6 @@ var makeStack = function() {
         storage = {},
         stack = {
 
-            /******PROPERTIES******/
-
             /*****METHODS*****/
             push: function(value) {
                 storage[length] = value;
